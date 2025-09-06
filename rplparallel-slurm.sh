@@ -27,5 +27,5 @@ pyh.raycast(1); \
 print(time.localtime()); \
 print(time.time()-t0);"
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:666203385486:awsnotify --message "JobDone"
+aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:666203385486:awsnotify --message "RPLParallelJobDone"
 
